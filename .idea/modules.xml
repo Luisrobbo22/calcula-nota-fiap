@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/calculaNotaFiap.iml" filepath="$PROJECT_DIR$/calculaNotaFiap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Documentos/FIAP/2TDSR/Digital/2Sem/epictask-R/epictask.iml" filepath="$PROJECT_DIR$/../../Documentos/FIAP/2TDSR/Digital/2Sem/epictask-R/epictask.iml" />
+    </modules>
+  </component>
+</project>
