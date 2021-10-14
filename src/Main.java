@@ -4,16 +4,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Matéria: ");
-        String materia = sc.next();
+        System.out.println("Matéria: Digital");
 
-        System.out.println("Informe suas notas da checkpoint do segundo semestre");
-        double cp01 = sc.nextDouble();
-        double cp02 = sc.nextDouble();
+        double cp01 = 10.0;
+        double cp02 = 10.0;
+        System.out.println("Notas do checkpooint: \n" + cp01 + "\n" + cp02);
 
-        System.out.println("Informe suas notas da Challenge do segundo semestre");
-        double ch1 = sc.nextDouble();
-        double ch2 = sc.nextDouble();
+        double ch1 = 10.0;
+        double ch2 = 9.5;
+        System.out.println("Notas da challenge: \n" + ch1 + "\n" + ch2);
 
         System.out.println("Sua média do segundo semestre é: " + calcularMedia(cp01, cp02, ch1, ch2));
         double media = calcularMedia(cp01, cp02, ch1, ch2);
@@ -23,8 +22,8 @@ public class Main {
             System.out.println("falta " + (mediaMin - media) + " pontos para alcançar a média do segundo semestre");
         }
 
-        System.out.println("Informe sua média do primeiro semestre");
-        double mediaPrimeiro = sc.nextDouble();
+        double mediaPrimeiro = 9.7;
+        System.out.println("Média do primeiro semestre: " + mediaPrimeiro);
 
         double mediaTotal = (media + mediaPrimeiro) / 2;
 
