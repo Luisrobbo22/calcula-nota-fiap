@@ -6,12 +6,12 @@ public class Main {
 
         System.out.println("Matéria: Digital");
 
-        double cp01 = 10.0;
-        double cp02 = 10.0;
+        double cp01 = 9.0;
+        double cp02 = 9.5;
         System.out.println("Notas do checkpooint: \n" + cp01 + "\n" + cp02);
 
         double ch1 = 10.0;
-        double ch2 = 9.5;
+        double ch2 = 9.0;
         System.out.println("Notas da challenge: \n" + ch1 + "\n" + ch2);
 
         System.out.println("Sua média do segundo semestre é: " + calcularMedia(cp01, cp02, ch1, ch2));
@@ -22,7 +22,7 @@ public class Main {
             System.out.println("falta " + (mediaMin - media) + " pontos para alcançar a média do segundo semestre");
         }
 
-        double mediaPrimeiro = 9.7;
+        double mediaPrimeiro = 10.0;
         System.out.println("Média do primeiro semestre: " + mediaPrimeiro);
 
         double mediaTotal = (media + mediaPrimeiro) / 2;
